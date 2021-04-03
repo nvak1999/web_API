@@ -1,0 +1,79 @@
+#getImg {
+  width: 200vh;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  height: 100vh;
+  align-self: center;
+  /* overflow: scroll; */
+}
+
+img {
+  margin: 10px;
+  border-radius: 10px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Times New Roman", Times, serif;
+  background-color: rgba(243, 241, 239, 1);
+}
+
+/* ---------------------------- */
+#div-navbar {
+  height: 90vh;
+  background-image: url("./image/leaves_dark_plant_136935_3840x2160.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.divAleft {
+  align-self: flex-end;
+  text-align: center;
+  color: white;
+  font-size: 13px;
+  width: 40vh;
+  margin: 20px;
+}
+.divAmid {
+  align-self: center;
+  text-align: center;
+  width: 150vh;
+}
+#trending {
+  display: flex;
+  justify-content: center;
+}
+#trending a {
+  margin-left: 10px;
+}
+
+.divAright {
+  align-self: flex-end;
+  color: white;
+  font-size: 15px;
+  width: 40vh;
+  margin: 20px;
+  text-align: center;
+}
+#div-navbar a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+/* --------------------------------- */
+#search {
+  width: 100vh;
+}
+#search-navbar {
+  background-color: rgba(46, 49, 49, 0.3);
+}
+/* ---------------------------- */
