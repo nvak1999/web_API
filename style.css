@@ -1,5 +1,5 @@
 #getImg {
-  width: 200vh;
+  width: 130vh;
   /* border: 1px solid black; */
   display: flex;
   flex-wrap: wrap;
@@ -19,7 +19,7 @@ body {
   flex-direction: column;
   justify-content: center;
   font-family: "Times New Roman", Times, serif;
-  background-color: rgba(243, 241, 239, 1);
+  background-color: rgba(241, 90, 34, 0.3);
 }
 
 /* ---------------------------- */
@@ -47,6 +47,7 @@ body {
   text-align: center;
   width: 150vh;
 }
+
 #trending {
   display: flex;
   justify-content: center;
@@ -73,7 +74,74 @@ body {
 #search {
   width: 100vh;
 }
+#search + .nav-search-bottom:focus {
+  display: flex;
+}
 #search-navbar {
   background-color: rgba(46, 49, 49, 0.3);
+}
+
+.nav-search-top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-search-bottom {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-top: 10px;
+  width: 100%;
+  height: 25vh;
+}
+
+.motherbox1 {
+  border-radius: 10px;
+  width: 50vh;
+  background-image: url("./image/city_aerial_view.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.motherbox2 {
+  border-radius: 10px;
+  width: 50vh;
+  background-image: url("./image/nature.jpg");
+  background-color: blue;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.motherbox3 {
+  border-radius: 10px;
+  width: 50vh;
+  background-image: url("./image/bird.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.motherbox4 {
+  border-radius: 10px;
+  width: 50vh;
+  background-image: url("./image/Maldives.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+#search-more-bottom {
+  width: 100%;
+}
+#button-topic {
+  margin-bottom: 1vh;
+  margin-right: 1vh;
+  opacity: 0.8;
 }
 /* ---------------------------- */

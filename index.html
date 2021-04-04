@@ -25,24 +25,29 @@
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
-  <body>
+  <body href="#">
     <div id="div-navbar" class="max-width">
-      <nav class="navbar justify-content-between fixed-top" id="search-navbar">
-        <a class="navbar-brand text-white">
-          <i class="fas fa-hat-wizard" style="margin-right: 10px"></i> Bucharati
-        </a>
-        <form class="form-inline">
-          <input
-            class="form-control mr-sm-2"
-            type="search"
-            placeholder="Search"
-            aria-label="Search"
-            id="search"
-          />
-          <button class="btn btn-outline-light my-2 my-sm-0" type="submit">
-            Search
-          </button>
-        </form>
+      <nav class="navbar fixed-top" id="search-navbar">
+        <div class="nav-search-top">
+          <a class="navbar-brand text-white">
+            <i class="fas fa-hat-wizard" style="margin-right: 10px"></i>
+            Bucharati
+          </a>
+          <form class="form-inline">
+            <input
+              class="form-control mr-sm-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+              id="search"
+              onclick="onclickinsearch()"
+            />
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+        <div id="search-more-bottom"></div>
       </nav>
       <div class="divAleft">Featured photo by Matt Moloney</div>
       <div class="divAmid">
@@ -64,9 +69,10 @@
           <a href="" class="text-success"> bikiny</a>
         </div>
       </div>
-
       <div class="divAright">
-        <a href="" class="text-white"> Read more about the Unsplash License</a>
+        <a class="text-white" href="" onclick="loseFocus()">
+          Read more about the Bucharati License</a
+        >
       </div>
     </div>
 
