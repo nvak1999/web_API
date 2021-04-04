@@ -1,13 +1,29 @@
 #getImg {
-  width: 200vh;
-  /* border: 1px solid black; */
+  width: 180vh;
+  /* border: 1px solid red; */
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
-  height: 100vh;
+  /* height: 100vh; */
   align-self: center;
   /* overflow: scroll; */
+}
+#getImg:hover {
+  box-shadow: 0px 0px 20px 3px #00000042;
+}
+#getVD {
+  background: #fff;
+  padding-bottom: 20px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+  width: 23%; /* Thumbnails 4 across */
+  margin: 1%;
+  float: left;
+  display: flex;
+}
+#loadmore {
+  display: flex;
+  justify-content: center;
 }
 
 img {
@@ -76,4 +92,3 @@ body {
 #search-navbar {
   background-color: rgba(46, 49, 49, 0.3);
 }
-/* ---------------------------- */

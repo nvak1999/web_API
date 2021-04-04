@@ -39,7 +39,11 @@
             aria-label="Search"
             id="search"
           />
-          <button class="btn btn-outline-light my-2 my-sm-0" type="submit">
+          <button
+            class="btn btn-outline-light my-2 my-sm-0"
+            type="submit"
+            onclick="handleSearchClick()"
+          >
             Search
           </button>
         </form>
@@ -69,8 +73,25 @@
         <a href="" class="text-white"> Read more about the Unsplash License</a>
       </div>
     </div>
-
     <div id="getImg"></div>
+    <div id="loadmore">
+      <button
+        class="btn btn-outline-dark w-25 my-2 my-sm-0"
+        onclick="handleLoadMoreClick()"
+      >
+        Load more
+      </button>
+    </div>
+    <h3 class="text-center">Image Video</h3>
+    <div id="getVD"></div>
+    <div id="loadmore">
+      <button
+        class="btn btn-outline-dark w-25 my-2 my-sm-0"
+        onclick="handleLoadMoreVDClick()"
+      >
+        Load more
+      </button>
+    </div>
     <!-- -------------------------------- -->
     <script src="./script.js"></script>
     <script
